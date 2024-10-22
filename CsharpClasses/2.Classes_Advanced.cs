@@ -4,14 +4,20 @@ class ExcelProgram
 {
     static void Main()
     {
-        string[] fileNames =
+
+        int[] numbers = { 1, 2, 3, 4 };
+        bool[] bools = { true, false, true, false };
+
+        string[] paySlips =
         {
-            "Excelfile1.xlsx" , "Excelfile2.xlsx" , "Excelfile3.xlsx"
+            "salaryPayslip-june.xlsx" ,
+            "salaryPayslip-july.xlsx" , 
+            "salaryPayslip-Aug.xlsx"
         };
 
         // i want to call ShowExcelFileNamesLength method from ExcelFilesSystem;
         ExcelFilesSystem excelFilesSystem = new ExcelFilesSystem();
-        excelFilesSystem.ShowExcelFilesLength(fileNames);
+        excelFilesSystem.ShowExcelFilesLength(paySlips);
         // github // public
         //accessmodifier public
 
