@@ -1,6 +1,7 @@
 ﻿using System;
 
-
+namespace ExcelFilesFolder
+{
     class ExcelProgram
     {
         static void Main()
@@ -94,7 +95,6 @@
         public string createdDate;
     }
 
-
     class ExcelFilesSystem
     {
         public void ShowExcelFilesLength(string[] fileNames)
@@ -120,11 +120,36 @@
         {
             return excelFiles;
         }
-
-
-
     }
+}
 
+
+//public static 
+
+
+//nomral pro
+
+
+//House - design
+
+//hallroom
+//kitch
+//bedroom
+//restroom
+
+
+
+//Food app
+
+//Custmer
+// func
+
+
+//non-vegitems
+// func
+
+//vegitms
+//func
 
 
 

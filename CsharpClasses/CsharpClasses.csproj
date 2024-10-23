@@ -48,11 +48,17 @@
   <ItemGroup>
     <Compile Include="1.Class_Basics.cs" />
     <Compile Include="2.Classes_Advanced.cs" />
+    <Compile Include="3.Namespace\1.ExceFilesClass.cs" />
+    <Compile Include="3.Namespace\2.PDFFilesClass.cs" />
+    <Compile Include="3.Namespace\3.WordDocClasses.cs" />
+    <Compile Include="3.Namespace\MainProgram.cs" />
+    <Compile Include="4.Static_Classess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
