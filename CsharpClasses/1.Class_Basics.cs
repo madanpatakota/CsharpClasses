@@ -4,6 +4,13 @@
 
 class File
 {
+    //cons is a special method automatically call
+    public File()
+    {
+        Console.WriteLine("Constructor called");
+    }
+
+
     string fileName; // field member
     string fileLocation;
     string fileSize;
@@ -26,6 +33,7 @@ class File
         //}
 
         File file = new File();
+
         file.ShowMessage("Resume.docx", @"D:/Eductation"); // string
 
         //---------------------------------------------------------------

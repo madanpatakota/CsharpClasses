@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExcelProgram</StartupObject>
+    <StartupObject>SoftwareAndSchoolNamespace.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,8 @@
     <Compile Include="3.Namespace\3.WordDocClasses.cs" />
     <Compile Include="3.Namespace\MainProgram.cs" />
     <Compile Include="4.Static_Classess.cs" />
+    <Compile Include="5.StaticVsNonStatic.cs" />
+    <Compile Include="6.interface_Basic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
